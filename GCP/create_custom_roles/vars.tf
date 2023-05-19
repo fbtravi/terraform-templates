@@ -1,8 +1,9 @@
-variable "access-list" {
-  description = "Access list"
-  type        = set(string)
-}
-variable "array_custom_role" {
+variable "dict_custom_role" {
   description = "Array  custom role"
-  type        = set(string)
+  type = map(
+    object({
+      title      = string
+      permission = list(string)
+    })
+  )
 }

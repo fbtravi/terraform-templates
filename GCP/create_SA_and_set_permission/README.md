@@ -1,13 +1,13 @@
 # Set iam member
 
-This template set iam member in roles our custom roles.
+This template create service account and set premissions.
 
-From documentation terrarform [link](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_project_iam)
+From documentation terrarform [link](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/google_service_account_iam)
 
 ## For running in linux
 
 ```bash
-cd set_iam_member
+cd create_SA_and_set_permission
 terraform init
 terraform plan
 ```

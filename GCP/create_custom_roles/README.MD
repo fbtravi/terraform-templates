@@ -6,7 +6,7 @@ From documentation terrarform [link](https://registry.terraform.io/providers/has
 
 ## For running in linux
 
-```
+```bash
 cd create_custom_roles
 terraform init
 terraform plan
@@ -18,6 +18,5 @@ terraform plan
 * terraform.tf ->  declare modules used
 * terraform.tfvars -> set vars values
 * vars.tf -> declare vars for using em main.tf
-
 
 * This template an example, for inspirantiom in your project.
